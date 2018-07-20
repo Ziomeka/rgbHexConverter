@@ -1,7 +1,7 @@
 {
-  "name": "bowling-kata",
+  "name": "rgb-hex-converter",
   "version": "1.0.0",
-  "description": "Bowling Kata",
+  "description": "TDD rgb to hex converter",
   "main": "app.js",
   "scripts": {
     "test": "jest",
