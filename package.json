@@ -7,7 +7,14 @@
     "test": "jest",
     "watch": "jest --watch *.js"
   },
-  "author": "Rafał Korecki",
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": ["*.{js,jsx}"],
+    "coverageDirectory": "./coverage",
+    "verbose": true,
+    "testURL": "http://localhost/test.html"
+  },
+  "author": "Agnieszka Ziomek",
   "license": "ISC",
   "devDependencies": {
     "jest": "^23.2.0"
